@@ -1,13 +1,15 @@
+#!/usr/bin/env python3
 
 def add_arrays(arr1, arr2):
-    if (len(arr1)==len(arr2)):
+    if (len(arr1) == len(arr2)):
         sum = []
-        for i in range(len(arr1)): 
+        for i in range(len(arr1)):
             sum.append(arr1[i] + arr2[i])
-            
-        return(sum) 
+
+        return(sum)
     else:
         return None
+
 
 arr1 = [1, 2, 3, 4]
 arr2 = [5, 6, 7, 8]
