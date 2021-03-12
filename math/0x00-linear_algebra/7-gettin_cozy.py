@@ -1,9 +1,11 @@
+#!/usr/bin/env python3
+
 import numpy as np
 
+
 def cat_matrices2D(mat1, mat2, axis=0):
-    #a=np.array(mat1)
-    #b=np.array(mat2)
-    M=np.concatenate((mat1,mat2),axis)
+    # M.append(mat2(i))
+    M = np.concatenate((mat1, mat2), axis)
     return M
 
 
