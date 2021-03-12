@@ -1,6 +1,11 @@
+#!/usr/bin/env python3
+
 import numpy as np
+
+
 def np_shape(matrix):
     return matrix.shape
+
 
 mat1 = np.array([1, 2, 3, 4, 5, 6])
 mat2 = np.array([])
