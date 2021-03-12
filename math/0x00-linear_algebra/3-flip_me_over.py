@@ -1,11 +1,9 @@
 #!/usr/bin/env python3
-import numpy as np
-
-
 def matrix_transpose(matrix):
-    M = np.transpose(matrix)
-    return M
+    M = [[matrix[b][a] for b in range(len(matrix))]
+         for a in range(len(matrix[0]))]
 
+    return M
 
 mat1 = [[1, 2], [3, 4]]
 print(mat1)
