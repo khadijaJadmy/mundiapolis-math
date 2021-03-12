@@ -1,9 +1,12 @@
+#!/usr/bin/env python3
 import numpy as np
 
+
 def matrix_transpose(matrix):
-    M=np.transpose(matrix)
+    M = np.transpose(matrix)
     return M
-    
+
+
 mat1 = [[1, 2], [3, 4]]
 print(mat1)
 print(matrix_transpose(mat1))
