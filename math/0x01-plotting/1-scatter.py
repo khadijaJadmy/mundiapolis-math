@@ -11,7 +11,7 @@ y += 180
 plt.xlabel("Height (in)")
 plt.ylabel("Weight (lbs)")
 plt.title("Men's Height vs Weight")
-plt.scatter( x,y, c = 'purple',s=6)
+plt.scatter( x,y, c = 'magenta',s=6)
 
 plt.show()
 
