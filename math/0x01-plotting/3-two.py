@@ -10,8 +10,11 @@ y1 = np.exp((r / t1) * x)
 y2 = np.exp((r / t2) * x)
 
 
-plt.plot(x, y1, 'r', dashes=[5, 5, 5, 5], label='C-14')
-plt.plot(x, y2, 'g', label='Ra-226')
+plt.plot(x, y1, 'r', dashes=[2, 3, 2, 3], label='C-14')
+plt.plot(x, y2, 'g', label='Ra-226', markersize=5)
+plt.xticks(np.arange(0, 22500, 2500))
+plt.xlim([0, 20000])
+plt.ylim([0, 1])
 plt.legend(loc="best")
 plt.title('Exponential Decay of Radioactive Elements')
 plt.xlabel('Time (years)')
