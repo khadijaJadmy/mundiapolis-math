@@ -32,7 +32,7 @@ f2_ax1.set_xticks(np.arange(0, 12, 2))
 f2_ax1.set_yticks(np.arange(0, 1200, 200))
 f2_ax1.set_xlim([0, 10])
 
-f2_ax2.scatter( x1,y1, c = 'purple',s=6)
+f2_ax2.scatter( x1,y1, c = 'magenta',s=6)
 f2_ax2.set_xlabel(xlabel="Height (in)",fontsize=8)
 f2_ax2.set_ylabel(ylabel="Weight (lbs)",fontsize=8)
 f2_ax2.set_title("Men's Height vs Weight",fontsize=8)
