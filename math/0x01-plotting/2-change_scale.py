@@ -9,6 +9,8 @@ y = np.exp((r / t) * x)
 
 
 plt.plot(x,y)
+plt.xticks(np.arange(0, 28000, 5000))
+plt.xlim([0, 28000])
 plt.title('Exponential Decay of C-14')
 plt.xlabel('Time (years)')
 plt.ylabel('Fraction Remaining')
